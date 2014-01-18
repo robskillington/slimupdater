@@ -10,4 +10,13 @@
 
 @implementation SlimUpdater
 
++ (void)startAutoupdateWithAppName:(NSString *)appName
+         currentVersionInfoJSONURL:(NSURL *)currentVersionInfoJSONURL
+              currentVersionZipURL:(NSURL *)currentVersionZipURL
+ promptRestartOnSuccessfulDownload:(BOOL)promptRestartOnDownload
+                 promptRestartText:(NSString *)promptRestartText
+{
+    
+}
+
 @end
